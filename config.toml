@@ -1,4 +1,4 @@
-baseURL = "https://aadev.netlify.app.com"
+baseURL = "https://aadev.netlify.app"
 title = "AAdev"
 author = "Abdullah Abdi"
 languageCode = "en"
@@ -10,8 +10,7 @@ enableRobotsTXT = true
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 #hasCJKLanguage = true
 
-# If you're using Google Analytics, you can enable this feature.
-#googleAnalytics = "UA-12345678-1"
+googleAnalytics = "UA-12345678-1"
 
 # Disqus Comment System
 #disqusShortname = ""
