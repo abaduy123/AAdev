@@ -4,6 +4,17 @@
 <head>
   {{- partial "head.html" . -}}
   {{ block "meta_tags" . }}{{end}}
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PBC9SLF1WP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PBC9SLF1WP');
+</script>
+
 </head>
 
 <body class="flex flex-col min-h-screen">
