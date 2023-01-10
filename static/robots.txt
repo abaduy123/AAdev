@@ -2,4 +2,6 @@ User-agent: *
 
 Disallow:
 
+Sitemap:https://aammdev.netlify.app/sitemap.xml
+
 
